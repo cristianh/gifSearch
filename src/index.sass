@@ -1,0 +1,30 @@
+
+*
+    padding: 12px 12px
+
+input[type="text"]
+    border: 1px solid silver
+
+body
+    background-color: #3e3e3e
+    color: white/** **/
+    font:
+        family: 'Arial,Tahoma'
+        size: 1.2em
+
+.card
+    width: 100%
+    height: fit-content
+    border: 3px solid silver
+    display: grid
+    align-items: center
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr))
+    //grid-auto-flow: column
+    //grid-auto-columns: minmax(250px, 1fr) 
+    align-self: center
+    justify-self: center
+
+    &__img
+        width: 100%
+        height: 30vh
+        margin: 0px auto
